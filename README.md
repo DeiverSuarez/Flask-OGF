@@ -16,24 +16,43 @@ cd into src folder and:
 - **Step 1: Create a new environment**
 
 ```conda create -n env```
+
 - **Step 2: Activate the new environment**
+
 ```conda activate env```
+
 - **Step 3: Install pip**
+
 ```conda install pip```
+
 - **Step 4: Install all the virtualenv packages**
+
 ```pip install -r requirements.txt```
+
 ## Install Requirements for Python
+
 If you are a Python user without an Anaconda distribution, follow these steps. 
+
 cd into src folder and:
+
 - **Step 1: Create a new environment**
+
 ```py -m venv env``` (Windows)
+
 ```python3 -m venv env``` (Unix/macOS)
+
 - **Step 2: Activate the new environment**
+
 ```.\env\Scripts\activate.bat``` (Windows)
+
 ```source env/bin/activate``` (Unix/macOS)
+
 - **Step 3: Install all the virtualenv packages**
+
 ```pip install -r requirements.txt```
+
 Once you have installed all the requirements and you are in the environment you can run the app typing: ```flask run```
+
 ## Example: How to retrive data from RStudio
 
 ```{r, eval=FALSE}

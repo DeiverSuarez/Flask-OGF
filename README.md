@@ -53,7 +53,7 @@ cd into src folder and:
 
 Once you have installed all the requirements and you are in the environment you can run the app typing: ```flask run```
 
-## Example: How to retrive data from RStudio
+## Example: How to retrieve data from RStudio
 
 ```{r, eval=FALSE}
 library(httr)
